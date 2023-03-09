@@ -1,43 +1,49 @@
 .card {
-  background-color: rgba(226, 19, 122, 0.678);
+  background-color:lightpink;
   display: flex;
   flex-direction: row;
 }
+
 div {
-  background-color: rgba(46, 98, 241, 0.61);
+  background-color:lightpink;
   width: 200px;
 
 }
 
 section {
   display: flex;
-  background-color: whitesmoke;
+  background-color: pink;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 p {
-  color: black;
+  color: royalblue;
 }
 
 body {
-  background-color: rgba(136, 159, 224, 0.452);
+  background-color: lemonchiffon;
 }
 
 header {
+  display: block;
   text-align: center;
+  color: pink;
 }
 
 img {
   display: block;
-  min-width: 300xpx;
-  min-height: 225px;
+  min-width: 300px;
+  min-height: 225;
+  max-width: 300px;
   max-height: 225px;
   text-align: center;
 }
 
 h1 {
   text-align: center;
+  color: palevioletred;
 }
 
 main {
@@ -50,7 +56,16 @@ nav {
 }
 
 footer {
-  text-align: center;
   margin-left: 500px;
   margin-right: 500px;
+  text-align: center;
+
+}
+
+h2 {
+  color:royalblue;
+}
+
+nav a {
+  color: black;
 }
